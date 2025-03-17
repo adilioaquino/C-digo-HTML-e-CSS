@@ -23,7 +23,7 @@ function adicionarAmigo() {
 function atualizarLista() {
     const lista = document.getElementById("listaAmigos");
     lista.innerHTML = "";
-
+//Percorre o array dos amigos e cria um elemento pros nomes.
     amigos.forEach((amigo) => {
         const li = document.createElement("li");
         li.textContent = amigo;
